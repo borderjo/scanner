@@ -20,7 +20,8 @@ func main() {
 	//testOne("0x315fda8566bd6666354babaf94828107ab7f0d17b430aef38e6a044475943f61")
 	//chainscan.TestRpc()
 	//mapper.InitMapper()
-	mapper.ParseEther()
+	//mapper.ParseEther()
+	mapper.TestABI()
 }
 
 func testOne(txn string) {
